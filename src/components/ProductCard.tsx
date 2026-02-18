@@ -14,8 +14,9 @@ function Productcard() {
         <Card.Body>
           <Card.Title>Plants</Card.Title>
           <Card.Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, accusamus?
-          </Card.Text>
+  Explore a wide variety of indoor and outdoor plants that bring freshness, beauty, and positive energy to your space.
+</Card.Text>
+
         </Card.Body>
         <Card.Footer>
           <a href="/plants" className="card-button" style={{
@@ -35,9 +36,10 @@ function Productcard() {
         <Card.Img variant="top" src={plantseed} style={{ borderRadius: "10px" }} />
         <Card.Body>
           <Card.Title>Seeds</Card.Title>
-          <Card.Text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quidem?
-          </Card.Text>
+         <Card.Text>
+  High-quality seeds for vegetables, fruits, and flowers to help you grow a healthy and thriving garden.
+</Card.Text>
+
         </Card.Body>
         <Card.Footer>
           <a href="/seeds" className="card-button" style={{
@@ -56,9 +58,10 @@ function Productcard() {
         <Card.Img variant="top" src={planttool} style={{ borderRadius: "10px" }} />
         <Card.Body>
           <Card.Title>Tools</Card.Title>
-          <Card.Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nam.
-          </Card.Text>
+         <Card.Text>
+  Durable and reliable gardening tools designed to make planting, pruning, and maintenance easier and more efficient.
+</Card.Text>
+
         </Card.Body>
         <Card.Footer>
           <a href="/tools" className="card-button" style={{

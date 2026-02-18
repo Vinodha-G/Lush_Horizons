@@ -81,7 +81,7 @@ function Footer() {
         </div>
         <hr />
         <p className="text-center mb-0">
-          &copy; 2024 Lush Horizons. All Rights Reserved.
+          &copy; 2026 Lush Horizons. All Rights Reserved.
         </p>
       </div>
       

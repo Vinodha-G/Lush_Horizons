@@ -87,7 +87,7 @@ const dispatch=useDispatch();
       <section className="story-section">
         <h2>Our <span className="highlight">Story</span></h2>
         <p>
-          It all began in 2015 with a single seed of an idea—creating a space where gardening enthusiasts 
+          It all began in 2022 with a single seed of an idea—creating a space where gardening enthusiasts 
           could find not just products, but inspiration. From a small family-owned store to a thriving online 
           marketplace, Lush Horizons has grown into a trusted name for garden plants, tools, and seeds.
         </p>

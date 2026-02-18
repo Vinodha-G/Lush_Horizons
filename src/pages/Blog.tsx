@@ -85,14 +85,20 @@ function Blog(){
               />
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-center">
-              <h3>The Magic of ZZ Plants</h3>
+              <h3>The Magic of Swiss Cheese Plants</h3>
               <p>
-                Looking for a hardy, low-maintenance plant that brings elegance
-                to your space? Meet the ZZ Plant, a favorite among plant
-                enthusiasts for its resilience and beauty. Learn why it’s a
-                must-have in your indoor garden.
-              </p>
-              <button className="btn btn-success">Read Full Article</button>
+The Swiss Cheese Plant is one of the easiest indoor plants to grow. With its glossy leaves and low maintenance needs, it’s perfect for beginners and busy plant lovers. Discover why this resilient beauty is a must-have for every green space.
+</p>
+
+              <a 
+  href="https://medium.com/@VinodhaTechJourney/the-magic-of-swiss-cheese-plant-plants-the-perfect-low-maintenance-green-companion-7a9111e7eb1e"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-success"
+>
+  Read Full Article
+</a>
+
             </div>
           </div>
         </div>
