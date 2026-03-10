@@ -66,9 +66,9 @@ const dispatch=useDispatch();
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      {home.home.loading?(<Spinner animation="border" variant="primary"/>):("")}
+      {/* {home.home.loading?(<Spinner animation="border" variant="primary"/>):("")} */}
 
-      <button onClick={()=>{dispatch(homeSlice.actions.stopLoading());}}>Hello</button>
+      {/* <button onClick={()=>{dispatch(homeSlice.actions.stopLoading());}}>Hello</button> */}
 
       <br />
       <section style={{padding:'10px',backgroundColor:'#435648'}}>
