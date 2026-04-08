@@ -62,7 +62,7 @@ function Tools() {
             ) : (
               <>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>${item.price}</Card.Text>
+                <Card.Text>Rs {item.price}</Card.Text>
                 <Button
                                  variant="primary"
                                  className="add-to-cart-button"

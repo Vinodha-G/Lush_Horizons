@@ -39,7 +39,7 @@ const SlidingCart: React.FC<SlidingCartProps> = ({ show, onClose }) => {
               <img src={item.image} alt={item.name} className="cart-item-image" />
               <div className="cart-item-details">
                 <p className="cart-item-name">{item.name}</p>
-                <p className="cart-item-price">${item.price}</p>
+                <p className="cart-item-price">Rs {item.price}</p>
                 <div className="cart-buttons">
                   <button onClick={() => removeFromCart(item.id)}>-</button>
                   <span>{item.quantity}</span>
@@ -52,7 +52,7 @@ const SlidingCart: React.FC<SlidingCartProps> = ({ show, onClose }) => {
       </div>
 
       <div className="cart-footer">
-        <h5>Subtotal: ${getTotal().toFixed(2)}</h5>
+        <h5>Subtotal: Rs {getTotal().toFixed(2)}</h5>
         <button
           className="checkout-button"
           onClick={handleCheckout}

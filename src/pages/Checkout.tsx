@@ -146,22 +146,22 @@ function Checkout() {
                 <span>
                   {item.name} x {item.quantity}
                 </span>
-                <span>${(item.price * item.quantity).toFixed(2)}</span>
+                <span>Rs {(item.price * item.quantity).toFixed(2)}</span>
               </div>
             ))
           )}
 
           <div className="checkout-total-row">
             <span>Subtotal</span>
-            <span>${subtotal.toFixed(2)}</span>
+            <span>RS {subtotal.toFixed(2)}</span>
           </div>
           <div className="checkout-total-row">
             <span>Shipping</span>
-            <span>{shipping === 0 ? "Free" : `$${shipping.toFixed(2)}`}</span>
+            <span>{shipping === 0 ? "Free" : `RS ${shipping.toFixed(2)}`}</span>
           </div>
           <div className="checkout-grand-total">
             <span>Total</span>
-            <span>${total.toFixed(2)}</span>
+            <span>RS {total.toFixed(2)}</span>
           </div>
         </div>
       </div>
