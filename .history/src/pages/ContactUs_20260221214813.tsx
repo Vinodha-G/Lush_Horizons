@@ -199,7 +199,7 @@ function ContactUs(){
             <p>San Francisco, CA 94158</p>
             <br></br>
             <p>Phone: 123-456-7890</p>
-            <p>Email: thelushhorizons@gmail.com</p>
+            <p>Email: info@mysite.com</p>
             <br></br>
             <p>Mon - Fri: 7am - 10pm</p>
             <p>Saturday: 8am - 10pm</p>
